@@ -14,7 +14,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "inspo-recommendation.vercel.app",
-        "APP_KEY": "base64:YwI4vmBTiDu7sbBiSLSwfqt6sw6TtEP/hJGyBg32pwE=",
+        "APP_KEY": "base64:KE1nYqkUsxC+mlsVjpfKc/VPTMwLiG7k562lowwhig0=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
