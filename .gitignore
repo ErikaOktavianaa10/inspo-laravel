@@ -1,23 +1,35 @@
-/.phpunit.cache
+# Laravel folders to ignore
+/vendor
 /node_modules
-/public/build
-/public/hot
 /public/storage
 /storage/*.key
-/storage/pail
-/vendor
+/storage/app/public
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Environment & config
 .env
-.env.backup
-.env.production
-.phpactor.json
+.env.*
 .phpunit.result.cache
-Homestead.json
-Homestead.yaml
+Homestead.*
+auth.json
+
+# Build output (Vite / Mix / other frontend tools)
+public/build
+public/hot
+/dist
+
+# IDE / Editor folders
+/.idea
+/.vscode
+/.phpactor.json
+/.fleet
+/.nova
+/.zed
+
+# npm / yarn logs
 npm-debug.log
 yarn-error.log
-/auth.json
-/.fleet
-/.idea
-/.nova
-/.vscode
-/.zed
+pnpm-debug.log
