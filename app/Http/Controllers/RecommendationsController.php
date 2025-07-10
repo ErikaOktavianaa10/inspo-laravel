@@ -35,7 +35,8 @@ class RecommendationsController extends Controller
     try {
         // Kirim data ke API Flask untuk mendapatkan rekomendasi
         $client = new \GuzzleHttp\Client();
-        $response = $client->request('POST', 'https://d35b97889511.ngrok-free.app/recommend', [
+        $baseUrl = config('services.flask.url');
+        $response = $client->request('POST', $baseUrl . '/recommend', [
             'json' => [
                 'Category' => $category,
                 'Username' => $influencer
