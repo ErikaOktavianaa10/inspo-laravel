@@ -15,7 +15,8 @@ class RecommendationsController extends Controller
             try {
                 // Ambil data influencer
                 $client = new \GuzzleHttp\Client();
-                $response = $client->request('GET', 'http://127.0.0.1:5000/get_influencers');
+                $baseUrl = config('services.flask.url');
+                $response = $client->request('GET', $baseUrl . '/get_influencers');
                 $influencers = json_decode($response->getBody(), true);
 
                 $categories = array_keys($influencers);

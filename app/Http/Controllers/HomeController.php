@@ -12,7 +12,8 @@ class HomeController extends Controller
     {
         try {
             // Ambil data dari Flask API
-            $response = Http::get('http://127.0.0.1:5000/get_influencers');
+            $baseUrl = config('services.flask.url');
+            $response = Http::get($baseUrl . '/get_influencers');
 
             if ($response->successful()) {
                 $data = $response->json();
