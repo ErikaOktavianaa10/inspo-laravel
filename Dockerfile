@@ -26,8 +26,7 @@ RUN composer install --prefer-dist --no-interaction --no-scripts --no-autoloader
 
 # Copy the rest of the app
 COPY . .
-# Copy .env file if exists
-COPY .env .env
+
 # Generate optimized autoload
 RUN composer dump-autoload --optimize
 
