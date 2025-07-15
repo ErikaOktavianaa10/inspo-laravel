@@ -51,7 +51,7 @@
                         </div>
                 </div>
             </div>
-            <div class="d-grid justify-end my-2 mt-4 mb-8">
+            <div class="d-grid justify-center my-2 mt-4 mb-8">
                 <button type="submit" class="bg-teal-500 text-white px-4 py-1 rounded-full hover:bg-teal-600 w-full">
                      Result
                 </button>
