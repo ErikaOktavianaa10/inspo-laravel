@@ -14,9 +14,10 @@
             inspo.
         </div>
         <nav class="space-x-8 text-gray-500">
-            <a class="hover:text-teal-500" href="#">All</a>
-            <a class="hover:text-teal-500" href="#">Recommendations</a>
-            <a class="hover:text-teal-500" href="#">Contact Us</a>
+            <a href="{{ route('account.home') }}" class="{{ Request::routeIs('account.home') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Home</a>
+            <a href="{{ route('account.recommendations') }}" class="{{ Request::routeIs('account.recommendations') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Recommendations</a>
+            <a href="{{ route('account.influencers') }}" class="{{ Request::routeIs('account.influencers') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Influencers</a>
+            <a href="{{ route('account.contact') }}" class="{{ Request::routeIs('account.contact') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Contact Us</a>
         </nav>
         <div class="space-x-4">
             <a class="text-teal-500 hover:text-gray-900" href="{{ route('account.login') }}">
