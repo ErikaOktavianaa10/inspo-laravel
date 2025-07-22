@@ -11,7 +11,10 @@ use App\Http\Controllers\RecommendationsController;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/clear-cache', function () {
+    Artisan::call('optimize:clear');
+    return 'Cache cleared';
+});
 Route::group(['prefix' => 'account'], function ()  {
 
     Route::group(['middleware' => 'guest'], function() {
