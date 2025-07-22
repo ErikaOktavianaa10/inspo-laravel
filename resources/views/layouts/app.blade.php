@@ -14,7 +14,7 @@
 <body class="bg-gray-100">
     <nav class="p-4 bg-white shadow-md">
         <div class="container mx-auto flex justify-between items-center">
-           <img src="{{ asset('icons/logo.svg') }}" alt="Inspo Logo" class="mx-2 my-0">
+           <img src="{{ secure_asset('icons/logo.svg') }}" alt="Inspo Logo" class="mx-2 my-0">
             <div>
                 <a href="{{ route('account.home') }}" class="{{ Request::routeIs('account.home') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Home</a>
                 <a href="{{ route('account.recommendations') }}" class="{{ Request::routeIs('account.recommendations') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Recommendations</a>
