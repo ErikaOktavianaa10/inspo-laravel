@@ -14,7 +14,7 @@
                 type="button" 
                 class="inline-flex items-center justify-start w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:border-teal-500"
             >
-                <img src="{{ asset('icons/filter.svg') }}" alt="Filter Icon" class="w-4 h-4 mr-2">
+                <img src="{{ secure_asset('icons/filter.svg') }}" alt="Filter Icon" class="w-4 h-4 mr-2">
                 {{ request('category') ?? 'Filter by Category' }}
             </button>
 
