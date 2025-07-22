@@ -28,7 +28,7 @@
             <!-- Left Side - Illustration -->
             <div class="w-1/2 gradient-bg p-8 hidden md:block">
                 <div class="h-full flex items-center justify-center">
-                    <img src="{{ asset('images/inspo.svg') }}" alt="Inspo Illustration" class="w-full max-w-md">
+                    <img src="{{ secure_asset('images/inspo.svg') }}" alt="Inspo Illustration" class="w-full max-w-md">
                 </div>
             </div>
 
@@ -36,7 +36,7 @@
             <div class="w-full md:w-1/2 p-8 md:p-12">
                 <div class="mb-8">
                     <div class="flex items-center gap-2 mb-6">
-                        <img src="{{ asset('icons/logo.svg') }}" alt="Inspo Logo" class="h-8 ml-48">
+                        <img src="{{ secure_asset('icons/logo.svg') }}" alt="Inspo Logo" class="h-8 ml-48">
                     </div>
                     <h2 class="text-gray-500">Welcome back!</h2>
                 </div>
@@ -52,7 +52,7 @@
                         <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
                         <div class="relative">
                             <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                <img src="{{ asset('icons/email.svg') }}" alt="Inspo Logo" class="mr-4">
+                                <img src="{{ secure_asset('icons/email.svg') }}" alt="Inspo Logo" class="mr-4">
                             </div>
                             <input type="email" name="email" id="email" 
                                 class="input-custom pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-teal-500 focus:ring-teal-500"
@@ -67,7 +67,7 @@
                         <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password*</label>
                         <div class="relative">
                             <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                <img src="{{ asset('icons/lock.svg') }}" alt="Inspo Logo" class="mr-4">
+                                <img src="{{ secure_asset('icons/lock.svg') }}" alt="Inspo Logo" class="mr-4">
                             </div>
                             <input type="password" name="password" id="password" 
                                 class="input-custom pl-10 block w-full rounded-md border-gray-300 shadow-sm focus:border-teal-500 focus:ring-teal-500"
