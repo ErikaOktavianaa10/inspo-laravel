@@ -4,7 +4,7 @@
 
 <div class="relative w-full mb-4">
     <img 
-        src="{{ asset('images/poster-recommendation.png') }}" 
+        src="{{ secure_asset('images/poster-recommendation.png') }}" 
         alt="Header Banner" 
         class="w-full h-80 object-cover"
     />
