@@ -11,7 +11,7 @@
     <!-- Header Section -->
     <header class="flex justify-between items-center p-6">
         <div class="text-3xl font-bold text-teal-500">
-              <img src="{{ asset('icons/logo.svg') }}" alt="Inspo Logo" class="mx-2 my-0">
+              <img src="{{ secure_asset('icons/logo.svg') }}" alt="Inspo Logo" class="mx-2 my-0">
         </div>
         <nav class="space-x-8 text-gray-500">
             <a href="{{ route('account.home') }}" class="{{ Request::routeIs('account.home') ? 'text-teal-500' : 'text-gray-500' }} hover:text-teal-500 transition-colors duration-200 mr-2">Home</a>
