@@ -5,10 +5,10 @@
             <img src="{{ asset('icons/logo-white.svg') }}" alt="Logo" class="h-8 mb-4">
             <p class="text-white text-sm">Smart solution for digital marketing!</p>
             <div class="flex space-x-3 mt-3">
-                <img src="{{ asset('icons/Instagram.svg') }}" class="h-5 w-5" alt="">
-                <img src="{{ asset('icons/Google.svg') }}" class="h-5 w-5" alt="">
-                <img src="{{ asset('icons/TikTok.svg') }}" class="h-5 w-5" alt="">
-                <img src="{{ asset('icons/WhatsApp.svg') }}" class="h-5 w-5" alt="">
+                <img src="{{ secure_asset('icons/Instagram.svg') }}" class="h-5 w-5" alt="">
+                <img src="{{ secure_asset('icons/Google.svg') }}" class="h-5 w-5" alt="">
+                <img src="{{ secure_asset('icons/TikTok.svg') }}" class="h-5 w-5" alt="">
+                <img src="{{ secure_asset('icons/WhatsApp.svg') }}" class="h-5 w-5" alt="">
             </div>
         </div>
 
