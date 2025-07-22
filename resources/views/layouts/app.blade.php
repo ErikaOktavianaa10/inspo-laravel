@@ -25,7 +25,7 @@
                 <div class="relative">
                     <button id="dropdownButton" class="text-2l flex items-center text-gray-700 mr-2">
                         Hello,  <p class="font-medium ml-1">{{ Auth::user()->name }}</p>
-                         <img src="{{ asset('icons/arrow.svg') }}" alt="Inspo Logo" class="mr-4">
+                         <img src="{{ secure_asset('icons/arrow.svg') }}" alt="Inspo Logo" class="mr-4">
                     </button>
                     <div id="dropdown" class="absolute right-0 mt-2 w-48 bg-white shadow-md rounded-md hidden">
                         <a href="{{ route('account.logout') }}" class="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100">Logout</a>
