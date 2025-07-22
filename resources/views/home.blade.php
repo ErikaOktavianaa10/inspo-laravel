@@ -17,13 +17,13 @@
     <div class="relative swiper w-full h-80 rounded-lg shadow overflow-hidden">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="{{ asset('images/header 1.jpg') }}" alt="Slide 1" class="w-full h-auto max-h-[500px] object-cover" />
+                <img src="{{ secure_asset('images/header 1.jpg') }}" alt="Slide 1" class="w-full h-auto max-h-[500px] object-cover" />
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/header 2.jpg') }}" alt="Slide 2" class="w-full h-auto max-h-[500px] object-cover" />
+                <img src="{{ secure_asset('images/header 2.jpg') }}" alt="Slide 2" class="w-full h-auto max-h-[500px] object-cover" />
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('images/header 3.jpg') }}" alt="Slide 3" class="w-full h-auto max-h-[500px] object-cover" />
+                <img src="{{ secure_asset('images/header 3.jpg') }}" alt="Slide 3" class="w-full h-auto max-h-[500px] object-cover" />
             </div>
         </div>
 
